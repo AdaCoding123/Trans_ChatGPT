@@ -35,7 +35,7 @@ public class AiServiceFactory {
 
     public static OpenAiService createProxyService() {
         final Duration DEFAULT_TIMEOUT = Duration.ofSeconds(10L);
-        String token = "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";
+        String token = "";
         String proxyHost = "127.0.0.1";
         int proxyPort = 7890;
         ObjectMapper mapper = defaultObjectMapper();
