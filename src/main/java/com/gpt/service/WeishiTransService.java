@@ -25,7 +25,7 @@ public class WeishiTransService {
     public JSONObject getExplainByWord(String word) throws JsonProcessingException, JSONException {
         // https://www.dictionaryapi.com/api/v3/references/collegiate/json/important?key=67613274-3af4-4247-aa61-e2d690dfc50c
         String ref1 = "collegiate";
-        String key1 = "67613274-3af4-4247-aa61-e2d690dfc50c";
+        String key1 = "";
         JsonNode res1 = getAPI(ref1, key1, word);
         System.out.println(res1);
         JsonNode fl = res1.get(0).get("fl");
@@ -35,7 +35,7 @@ public class WeishiTransService {
 
         // https://www.dictionaryapi.com/api/v3/references/thesaurus/json/important?key=8ef7bb8d-c94e-42b3-b054-44081824083f
         String ref2 = "thesaurus";
-        String key2 = "8ef7bb8d-c94e-42b3-b054-44081824083f";
+        String key2 = "";
         JsonNode res2 = getAPI(ref2, key2, word);
         JsonNode sseq = res2.get(0).get("def").get(0).get("sseq");
         StringBuilder syn_words = new StringBuilder();
