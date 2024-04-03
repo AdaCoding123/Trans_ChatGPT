@@ -44,8 +44,8 @@ public class BaiduTextTransService {
     }
 
     // 在平台申请的APP_ID 详见 http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer
-    private static final String APP_ID = "20240218001966443";
-    private static final String SECURITY_KEY = "PnenG33emGj4NKGJ06Cp";
+    private static final String APP_ID = "";
+    private static final String SECURITY_KEY = "";
 
     public static void main(String[] args) {
         BaiduTextTransService api = new BaiduTextTransService(APP_ID, SECURITY_KEY);
