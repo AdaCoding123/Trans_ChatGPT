@@ -11,8 +11,8 @@ import com.aliyun.teaopenapi.models.Config;
  **/
 public class AliTranService {
 
-    static String accessKeyId = "LTAI5tKZnqEGDbeMkHtQeqTj";
-    static String accessKeySecret = "Xh98JKpCZGkGwtLyn33osjBpcC08XP";
+    static String accessKeyId = "";
+    static String accessKeySecret = "";
 
     /**
      * 使用AK&SK初始化账号Client
