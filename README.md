@@ -1,4 +1,4 @@
-## 基于 ChatGPT的WordTranslator项目   后端开发
+## 基于ChatGPT的WordTranslator项目——后端开发
 
 项目描述：采用 ChatGPT 进行二次智能查词开发，扩展专业词典，全面详解英文词汇。
 
